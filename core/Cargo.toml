@@ -1,0 +1,39 @@
+[package]
+name = "quantum-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+tokio.workspace = true
+async-trait.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+bincode.workspace = true
+sha3.workspace = true
+blake3.workspace = true
+ed25519-dalek.workspace = true
+curve25519-dalek.workspace = true
+rand.workspace = true
+libp2p.workspace = true
+rocksdb.workspace = true
+wasmi.workspace = true
+wasmtime.workspace = true
+ark-std.workspace = true
+ark-bn254.workspace = true
+ark-groth16.workspace = true
+tracing.workspace = true
+anyhow.workspace = true
+thiserror.workspace = true
+
+# Additional core dependencies
+parking_lot = "0.12"
+dashmap = "5.5"
+rayon = "1.8"
+crossbeam = "0.8"
+
+[dev-dependencies]
+proptest.workspace = true
+criterion.workspace = true
+

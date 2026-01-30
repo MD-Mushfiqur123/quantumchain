@@ -1,0 +1,10 @@
+[package]
+name = "quantum-contracts"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+quantum-core = { path = "../core" }
+serde.workspace = true

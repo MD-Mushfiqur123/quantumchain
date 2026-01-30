@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+backend/node_modules/
+
+# Build artifacts
+target/
+Cargo.lock
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Rust
+**/*.rs.bk
+*.pdb
+
+# Private keys (IMPORTANT!)
+*.key
+*.pem
+*-keys.json
